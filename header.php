@@ -48,7 +48,7 @@
 				<div id="inner-header" class="wrap clearfix">
 
 					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
-					<a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" title="Beru-Be" alt="Beru-Be" /></a>
+					<a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" title="beru-be" alt="beru-be" /></a>
 
 					<!-- if you'd like to use the site description you can un-comment it below -->
 					<?php // bloginfo('description'); ?>
