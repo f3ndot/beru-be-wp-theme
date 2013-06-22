@@ -1,6 +1,6 @@
 /******************************************************************
 Site Name: Beru-Be
-Author: Justin Bullz
+Author: Justin Bull
 
 Stylesheet: Main Stylesheet
 
@@ -777,10 +777,11 @@ body {
 
 }
 body {
+  background-color: #a7d1c0;
   font-family: "Georgia", Cambria, Times New Roman, Times, serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #a7d1c0;
+  color: #565656;
 }
 /********************
 02. WORDPRESS BODY CLASSES
