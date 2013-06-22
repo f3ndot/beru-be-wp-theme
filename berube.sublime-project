@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/justinbull/Code/beru-be"
+		}
+	],
+  "settings":
+  {
+    "less2css":
+    {
+        "autoCompile": true,
+        "lessBaseDir": "./beru-be-wp-theme/library/less",
+        "outputDir": "./beru-be-wp-theme/library/css",
+        "minify": false
+    }
+  }
+}
