@@ -998,12 +998,16 @@ and more scalable.
 /*********************
 08. POSTS & CONTENT STYLES
 *********************/
-#content {
-  margin-top: 2.2em;
+#content #inner-content {
+  background-color: #d5d5d5;
 }
 /* end .hentry */
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
+.post {
+  padding: 20px;
+  background-color: #fff;
+}
 /* general post style */
 /* general article on a page style */
 /* general style on an attatchment */

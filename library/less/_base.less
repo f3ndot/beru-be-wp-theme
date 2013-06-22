@@ -289,9 +289,11 @@ and more scalable.
 *********************/
 
 #content {
-	margin-top: 2.2em;
+	// margin-top: 2.2em;
 
-	#inner-content {}
+	#inner-content {
+		background-color: #d5d5d5;
+	}
 }
 
 		.hentry {
@@ -313,7 +315,10 @@ and more scalable.
 
 		/* want to style individual post classes? Booya! */
 		.post-id {}         /* post by id (i.e. post-3) */
-		.post {}            /* general post style */
+		.post {
+			padding: 20px;
+			background-color: #fff;
+		}            /* general post style */
 		.page {}            /* general article on a page style */
 		.attachment {}      /* general style on an attatchment */
 		.sticky {}          /* sticky post style */
