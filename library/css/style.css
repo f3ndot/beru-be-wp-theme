@@ -929,6 +929,8 @@ h5,
 }
 .header #logo {
   margin: 20px 0;
+  max-width: 100%;
+  height: auto;
 }
 /*********************
 07. NAVIGATION STYLES
