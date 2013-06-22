@@ -10,9 +10,10 @@
     "less2css":
     {
         "autoCompile": true,
-        "lessBaseDir": "./beru-be-wp-theme/library/less",
-        "outputDir": "./beru-be-wp-theme/library/css",
-        "minify": false
+        "lessBaseDir": "./library/less",
+        "outputDir": "./library/css",
+        "minify": false,
+        "ignorePrefixedFiles": true
     }
   }
 }
