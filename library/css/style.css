@@ -1083,12 +1083,12 @@ and more scalable.
 }
 .bones_page_navi li a:hover,
 .bones_page_navi li a:focus {
-  color: #f01d4f;
+  color: #b60b0b;
   text-decoration: underline;
 }
 .bones_page_navi li.bpn-current {
   padding: 3px 6px;
-  border-bottom: 2px solid #f01d4f;
+  border-bottom: 2px solid #b60b0b;
   position: relative;
 }
 .bones_page_navi li.bpn-current a {
