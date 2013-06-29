@@ -220,12 +220,10 @@ and more scalable.
 */
 
 .nav {
-	// border: 1px solid #ccc;
+	border: 1px solid #ccc;
 	border-bottom: 0;
 	.css-gradient(#393939, #2c2c2c);
 	.border-radius-top(10px);
-	border-left: 1px solid #474747;
-	border-right: 1px solid #232323;
 
 	li {
 
@@ -233,8 +231,9 @@ and more scalable.
 			display: block;
 			text-decoration: none;
 			padding: 10px 10px;
-			border-bottom: 1px solid #474747;
-			border-top: 1px solid #232323;
+
+			border-top: 1px solid #474747;
+			border-bottom: 1px solid #232323;
 
 			color: #fff;
 
@@ -250,7 +249,7 @@ and more scalable.
 		}
 
 		&:first-child {
-			border-left: 0;
+			border-top: 0;
 		}
 
 		&:last-child {
