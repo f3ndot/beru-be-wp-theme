@@ -13,11 +13,13 @@
 								<header class="article-header">
 
 									<h1 class="h2"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
-									<div style="max-height: 300px; overflow: hidden;"><?php
-										if (has_post_thumbnail()) {
-											the_post_thumbnail('bones-thumb-680');
-										}
-									?></div>
+									<?php if (has_post_thumbnail()) { ?>
+									<div style="max-height: 300px; overflow: hidden;">
+										<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+											<?php the_post_thumbnail('bones-thumb-680'); ?>
+										</a>
+									</div>
+									<?php } ?>
 
 								</header> <!-- end article header -->
 
