@@ -1010,7 +1010,7 @@ and more scalable.
 .hentry header a:visited:hover,
 .hentry header a:focus,
 .hentry header a:visited:focus {
-  color: #5d5e66;
+  color: #4b4c54;
 }
 .hentry header h1.h2 {
   margin: 15px 20px;
@@ -1042,6 +1042,8 @@ and more scalable.
 /* post meta */
 .byline {
   color: #999;
+  font-size: 0.7em;
+  font-weight: 400;
 }
 /* entry content */
 .entry-content {
