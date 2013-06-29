@@ -1002,11 +1002,18 @@ and more scalable.
   background-color: #d5d5d5;
   padding-top: 30px;
 }
+.hentry header a,
+.hentry header a:visited {
+  color: #6d6e76;
+}
 .hentry header a:hover,
 .hentry header a:visited:hover,
 .hentry header a:focus,
 .hentry header a:visited:focus {
-  color: #6d6e76;
+  color: #5d5e66;
+}
+.hentry header h1.h2 {
+  margin: 15px 20px;
 }
 /* end .hentry */
 /* want to style individual post classes? Booya! */
