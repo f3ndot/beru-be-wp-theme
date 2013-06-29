@@ -953,7 +953,6 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 .nav {
-  border: 1px solid #ccc;
   border-bottom: 0;
   background-color: #2c2c2c;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#393939), to(#2c2c2c));
@@ -967,6 +966,8 @@ and more scalable.
   -moz-border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  border-left: 1px solid #474747;
+  border-right: 1px solid #232323;
   /* end .menu li */
 
   /* highlight current page */
@@ -988,7 +989,9 @@ and more scalable.
   display: block;
   text-decoration: none;
   padding: 10px 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #474747;
+  border-top: 1px solid #232323;
+  color: #fff;
   /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
@@ -996,6 +999,12 @@ and more scalable.
 			keep this file as small as possible!
 			*/
 
+}
+.nav li:first-child {
+  border-left: 0;
+}
+.nav li:last-child {
+  border-right: 0;
 }
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
