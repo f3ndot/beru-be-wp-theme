@@ -991,6 +991,7 @@ and more scalable.
   border-top: 1px solid #474747;
   border-bottom: 1px solid #232323;
   color: #fff;
+  text-transform: lowercase;
   /*
 			remember this is for mobile ONLY, so there's no need
 			to even declare hover styles here, you can do it in
@@ -999,10 +1000,10 @@ and more scalable.
 			*/
 
 }
-.nav li:first-child {
+.nav li:first-child a {
   border-top: 0;
 }
-.nav li:last-child {
+.nav li:last-child a {
   border-right: 0;
 }
 .nav li ul.sub-menu li a,
@@ -1650,10 +1651,10 @@ you can add resource intensive styles.
   			*/
   
   }
-  .nav li:first-child {
+  .nav li:first-child a {
     border-left: 0;
   }
-  .nav li:last-child {
+  .nav li:last-child a {
     border-right: 0;
   }
   .nav li ul.sub-menu,
