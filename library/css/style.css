@@ -881,6 +881,8 @@ h5,
 
   /* removing text decoration from all headline links */
 
+  margin-left: 1em;
+  margin-right: 1em;
 }
 h1 a,
 .h1 a,
@@ -1213,7 +1215,7 @@ and more scalable.
   margin-bottom: 0;
 }
 .commentlist li ul.children {
-  margin: 0;
+  margin: 0 0 0 2em;
   /* variations */
 
   /* change number for different depth */
