@@ -13,6 +13,11 @@
 								<header class="article-header">
 
 									<h1 class="entry-title single-title h2" itemprop="headline"><?php the_title(); ?></h1>
+									<div style="max-height: 300px; overflow: hidden;"><?php
+										if (has_post_thumbnail()) {
+											the_post_thumbnail('bones-thumb-680');
+										}
+									?></div>
 
 								</header> <!-- end article header -->
 
