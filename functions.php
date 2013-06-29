@@ -48,8 +48,7 @@ require_once('library/custom-post-type.php'); // you can disable this if you lik
 /************* THUMBNAIL SIZE OPTIONS *************/
 
 // Thumbnail sizes
-add_image_size( 'bones-thumb-680-soft', 680, 0, false );
-add_image_size( 'bones-thumb-680', 710, 0, true );
+add_image_size( 'bones-thumb-730', 730, 0, true );
 add_image_size( 'bones-thumb-600', 600, 150, true );
 add_image_size( 'bones-thumb-300', 300, 100, true );
 /*

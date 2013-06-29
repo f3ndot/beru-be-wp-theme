@@ -16,7 +16,7 @@
 									<?php if (has_post_thumbnail()) { ?>
 									<div style="max-height: 300px; overflow: hidden;">
 										<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-											<?php the_post_thumbnail('bones-thumb-680'); ?>
+											<?php the_post_thumbnail('bones-thumb-730'); ?>
 										</a>
 									</div>
 									<?php } ?>

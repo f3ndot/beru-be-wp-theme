@@ -768,6 +768,10 @@ and will be used across all viewports.
 13. FOOTER STYLES
 
 ******************************************************************/
+.attachment-bones-thumb-730 {
+  width: 100%;
+  height: auto;
+}
 /*********************
 01. GENERAL STYLES
 *********************/
@@ -1069,7 +1073,7 @@ and more scalable.
   -ms-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2);
   -o-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2);
-  margin: 0 20px 30px 20px;
+  margin: 0 0 30px 20px;
   background-color: #fff;
 }
 /* hentry class */
@@ -1398,6 +1402,9 @@ and more scalable.
 /*********************
 12. SIDEBARS & ASIDES
 *********************/
+.widget {
+  background-color: #fff;
+}
 .widget ul li {
   /* deep nesting */
 
@@ -1716,16 +1723,14 @@ you can add resource intensive styles.
   /*********************
   SIDEBARS & ASIDES
   *********************/
-  .sidebar {
-    margin-top: 2.2em;
-  }
   .widgettitle {
     border-bottom: 2px solid #444;
     margin-bottom: 0.75em;
+    margin-top: 0;
   }
   .widget {
     padding: 0 10px;
-    margin: 2.2em 0;
+    margin: 0 20px 0 0;
   }
   .widget ul li {
     margin-bottom: 0.75em;

@@ -15,7 +15,7 @@
 									<h1 class="entry-title single-title h2" itemprop="headline"><?php the_title(); ?></h1>
 									<?php if (has_post_thumbnail()) { ?>
 									<div style="max-height: 300px; overflow: hidden;">
-										<?php the_post_thumbnail('bones-thumb-680'); ?>
+										<?php the_post_thumbnail('bones-thumb-730'); ?>
 									</div>
 									<?php } ?>
 
