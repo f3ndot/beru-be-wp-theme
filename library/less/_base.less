@@ -220,17 +220,23 @@ and more scalable.
 */
 
 .nav {
-	border: 1px solid #ccc;
-	border-bottom: 0;
+	border: 0;
 	.css-gradient(#393939, #2c2c2c);
 	.border-radius-top(10px);
+
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2);
+
 
 	li {
 
 		a {
 			display: block;
 			text-decoration: none;
-			padding: 10px 10px;
+			padding: 10px 30px;
 
 			border-top: 1px solid #474747;
 			border-bottom: 1px solid #232323;
@@ -245,7 +251,7 @@ and more scalable.
 			keep this file as small as possible!
 			*/
 			&:hover, &:focus {
-
+				color: #eee;
 			}
 		}
 
@@ -315,6 +321,12 @@ and more scalable.
 	#inner-content {
 		background-color: #d5d5d5;
 		padding-top: 30px;
+		.border-radius-bottom();
+		-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2);
+		-ms-box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2);
+		-o-box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2);
+		box-shadow: 0 0 2px rgba(0,0,0,0.3),0 3px 5px rgba(0,0,0,0.2);
 	}
 }
 
