@@ -1012,7 +1012,8 @@ and more scalable.
 .hentry header a:visited:focus {
   color: #4b4c54;
 }
-.hentry header h1.h2 {
+.hentry header h1.h2,
+.hentry header h1.entry-title {
   margin: 15px 20px;
 }
 /* end .hentry */
@@ -1044,10 +1045,11 @@ and more scalable.
   color: #999;
   font-size: 0.7em;
   font-weight: 400;
+  margin-bottom: 0;
 }
 /* entry content */
 .entry-content {
-  margin: 0 15px;
+  margin: 10px 15px 0 15px;
   /*
 			image alignment on a screen this size may be
 			a bit difficult. It's set to start aligning
